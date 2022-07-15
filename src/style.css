@@ -12,9 +12,7 @@ html, body {
 body {
   color: #fdfdfd;
   background: url(/src/dark-bg.png); /* #3f6ef8 */
-  animation-name: "bg-ani";
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
+  animation: bg-ani 1s infinite;
   user-select: none;
 }
 

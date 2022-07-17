@@ -9,7 +9,14 @@ html, body {
   height: 100%;
 }
 
+@font-face {
+  /* https://www.dafont.com/de/vcr-osd-mono.font */
+  font-family: 'VCROSD';
+  src: url("/src/VCR_OSD_MONO_1.001.ttf");
+}
+
 body {
+  font-family: 'VCROSD', monospace;
   color: #fdfdfd;
   background: url(/src/dark-bg.png); /* #3f6ef8 */
   animation: bg-ani 1.5s infinite;
@@ -22,21 +29,18 @@ a {
   cursor: pointer;
 }
 
-@font-face {
-  /* https://www.dafont.com/de/vcr-osd-mono.font */
-  font-family: 'VCROSD';
-  src: url("/src/VCR_OSD_MONO_1.001.ttf");
-}
-
 #wrapper {
-  font-family: 'VCROSD', monospace;
-  font-size: 8vw;
   width: 100%;
-  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#phrase {
+  font-size: 8vw;
+  text-align: center;
+  padding: 0 10vw;
 }
 
 #reload {

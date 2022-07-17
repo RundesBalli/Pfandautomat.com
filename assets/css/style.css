@@ -12,13 +12,13 @@ html, body {
 @font-face {
   /* https://www.dafont.com/de/vcr-osd-mono.font */
   font-family: 'VCROSD';
-  src: url("/src/VCR_OSD_MONO_1.001.ttf");
+  src: url("/assets/fonts/VCR_OSD_MONO_1.001.ttf");
 }
 
 body {
   font-family: 'VCROSD', monospace;
   color: #fdfdfd;
-  background: url(/src/dark-bg.png); /* #3f6ef8 */
+  background: url(/assets/images/dark-bg.png); /* #3f6ef8 */
   animation: bg-ani 1.5s infinite;
   user-select: none;
 }
@@ -80,9 +80,9 @@ a {
 
 /* Animation */
 @keyframes bg-ani {
-  0%   { background: url(/src/dark-bg.png); color: #fdfdfd; }
-  35%  { background: url(/src/dark-bg.png); color: #fdfdfd; }
-  50%  { background: url(/src/light-bg.png); color: #3f6ef8; }
-  85%  { background: url(/src/light-bg.png); color: #3f6ef8; }
-  100% { background: url(/src/dark-bg.png); color: #fdfdfd; }
+  0%   { background: url(/assets/images/dark-bg.png); color: #fdfdfd; }
+  35%  { background: url(/assets/images/dark-bg.png); color: #fdfdfd; }
+  50%  { background: url(/assets/images/light-bg.png); color: #3f6ef8; }
+  85%  { background: url(/assets/images/light-bg.png); color: #3f6ef8; }
+  100% { background: url(/assets/images/dark-bg.png); color: #fdfdfd; }
 }

@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow"/>
     <meta name="keywords" content="Pfandautomat, Pfand"/>
     <meta name="revisit-after" content="7 days"/>
-    <link href="/src/style.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
     <meta name="theme-color" content="#3f6ef8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Pfandautomat.com">
@@ -25,6 +25,6 @@
       <a href="https://github.com/RundesBalli/Pfandautomat.com" target="_blank" rel="noopener">GitHub</a>
       <a href="https://php-noise.com" target="_blank" rel="noopener">PHP-Noise</a>
     </div>
-    <script type="text/javascript" src="/src/reload.js"></script>
+    <script type="text/javascript" src="/assets/js/reload.js"></script>
   </body>
 </html>

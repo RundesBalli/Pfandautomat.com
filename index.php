@@ -25,5 +25,6 @@
       <a href="https://github.com/RundesBalli/Pfandautomat.com" target="_blank" rel="noopener">GitHub</a>
       <a href="https://php-noise.com" target="_blank" rel="noopener">PHP-Noise</a>
     </div>
+    <script type="text/javascript" src="/src/reload.js"></script>
   </body>
 </html>

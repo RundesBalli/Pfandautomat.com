@@ -16,8 +16,9 @@
   </head>
   <body>
     <div id="wrapper">
-      Automat voll!<br>Personal rufen!
-    </div>
+      <div id="description"><?php $desc = array("Marke wird nicht akzeptiert", "Flaschenboden zuerst ", "Kiste drehen", "Kiste enthält volle Flaschen ", "Kiste enthält falsche Flaschen", "Flasche bitte entleeren", "Bondrucker leer "); echo $desc[array_rand($desc)]; ?></div>
+      <div id="reload"><a href="/">↻ reload</a></div>
+      </div>
     <div id="footer">
       <a href="https://rundesballi.com/" target="_blank" rel="noopener">RundesBalli.com</a>
       <a href="https://rundesballi.com/imprint" target="_blank" rel="noopener">Impressum</a>

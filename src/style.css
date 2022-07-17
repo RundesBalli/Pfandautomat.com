@@ -12,7 +12,7 @@ html, body {
 body {
   color: #fdfdfd;
   background: url(/src/dark-bg.png); /* #3f6ef8 */
-  animation: bg-ani 1s infinite;
+  animation: bg-ani 2s infinite;
   user-select: none;
 }
 
@@ -26,6 +26,11 @@ a {
   /* https://www.dafont.com/de/vcr-osd-mono.font */
   font-family: 'VCROSD';
   src: url("/src/VCR_OSD_MONO_1.001.ttf");
+}
+
+#reload {
+  font-size: 35px;
+  text-align: center;
 }
 
 #wrapper {

@@ -16,7 +16,8 @@
   </head>
   <body>
     <div id="wrapper">
-      Automat voll!<br>Personal rufen!
+      <div id="description"><?php $desc = array("Automat voll!<br>Personal rufen!", "Marke wird nicht akzeptiert", "Flaschenboden zuerst", "Kiste drehen", "Kiste enthält volle Flaschen", "Kiste enthält falsche Flaschen", "Flasche bitte entleeren", "Bondrucker leer"); echo $desc[array_rand($desc)]; ?></div>
+      <div id="reload"><a href="/">↻ reload</a></div>
     </div>
     <div id="footer">
       <a href="https://rundesballi.com/" target="_blank" rel="noopener">RundesBalli.com</a>
@@ -24,5 +25,6 @@
       <a href="https://github.com/RundesBalli/Pfandautomat.com" target="_blank" rel="noopener">GitHub</a>
       <a href="https://php-noise.com" target="_blank" rel="noopener">PHP-Noise</a>
     </div>
+    <script type="text/javascript" src="/src/reload.js"></script>
   </body>
 </html>

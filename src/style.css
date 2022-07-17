@@ -12,7 +12,7 @@ html, body {
 body {
   color: #fdfdfd;
   background: url(/src/dark-bg.png); /* #3f6ef8 */
-  animation: bg-ani 1s infinite;
+  animation: bg-ani 1.5s infinite;
   user-select: none;
 }
 
@@ -37,6 +37,12 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#reload {
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 3vh;
 }
 
 #footer {

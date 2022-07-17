@@ -49,6 +49,16 @@ a {
   margin-top: 3vh;
 }
 
+@media only screen and (min-width: 800px) {
+  #reload {
+    font-size: 3vw;
+  }
+}
+
+#reload > a {
+  color:rgba(0,0,0, 0.2);
+}
+
 #footer {
   position: absolute;
   font-family: monospace;

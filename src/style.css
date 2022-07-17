@@ -12,7 +12,7 @@ html, body {
 body {
   color: #fdfdfd;
   background: url(/src/dark-bg.png); /* #3f6ef8 */
-  animation: bg-ani 2s infinite;
+  animation: bg-ani 1.5s infinite;
   user-select: none;
 }
 
@@ -28,11 +28,6 @@ a {
   src: url("/src/VCR_OSD_MONO_1.001.ttf");
 }
 
-#reload {
-  font-size: 35px;
-  text-align: center;
-}
-
 #wrapper {
   font-family: 'VCROSD', monospace;
   font-size: 8vw;
@@ -42,6 +37,12 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#reload {
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 3vh;
 }
 
 #footer {

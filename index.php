@@ -16,7 +16,7 @@
   </head>
   <body>
     <div id="wrapper">
-      <div id="phrase"><?php $desc = array("Automat voll!<br>Personal rufen!", "Marke wird nicht akzeptiert", "Flaschenboden zuerst", "Kiste drehen", "Kiste enthält volle Flaschen", "Kiste enthält falsche Flaschen", "Flasche bitte entleeren", "Bondrucker leer", "Flasche enthält Fremdkörper"); echo $desc[array_rand($desc)]; ?></div>
+      <div id="phrase"><?php $desc = array("Automat voll!<br>Personal rufen!", "Marke wird nicht akzeptiert", "Flaschenboden zuerst", "Kiste drehen", "Kiste enthält volle Flaschen", "Kiste enthält falsche Flaschen", "Flasche bitte entleeren", "Bondrucker leer", "Flasche enthält Fremdkörper", "Pfandlogo nicht lesbar"); echo $desc[array_rand($desc)]; ?></div>
       <div id="reload"><a href="/">↻ reload</a></div>
     </div>
     <div id="footer">

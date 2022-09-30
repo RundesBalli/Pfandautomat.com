@@ -18,7 +18,7 @@ html, body {
 body {
   font-family: 'VCROSD', monospace;
   color: #fdfdfd;
-  background: url(/assets/images/dark-bg.png); /* #3f6ef8 */
+  background: url(/assets/images/dark-bg.png) #3f6ef8; /* #3f6ef8 */
   animation: bg-ani 1.5s infinite;
   user-select: none;
 }

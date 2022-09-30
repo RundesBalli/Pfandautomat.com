@@ -24,6 +24,7 @@
       <a href="https://rundesballi.com/imprint" target="_blank" rel="noopener">Impressum</a>
       <a href="https://github.com/RundesBalli/Pfandautomat.com" target="_blank" rel="noopener">GitHub</a>
       <a href="https://php-noise.com" target="_blank" rel="noopener">PHP-Noise</a>
+      <a href="https://www.dafont.com/de/vcr-osd-mono.font" target="_blank" rel="noopener">VCR OSD Mono Font</a>
     </div>
     <script type="text/javascript" src="/assets/js/reload.js"></script>
   </body>

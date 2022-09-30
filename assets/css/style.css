@@ -46,7 +46,10 @@ a {
 #reload {
   font-size: 5vw;
   text-align: center;
-  margin-top: 3vh;
+  position: absolute;
+  bottom: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media only screen and (min-width: 800px) {

@@ -1,3 +1,20 @@
+/**
+ * Pfandautomat.com
+ * 
+ * https://pfandautomat.com/
+ * https://github.com/RundesBalli/Pfandautomat.com
+ */
+:root {
+  --bgImgDark: url(/assets/images/dark-bg.png);
+  --fallbackBg: #3f6ef8;
+  --darkBgFontColor: #fdfdfd;
+  --bgImgLight: url(/assets/images/light-bg.png);
+  --lightBgFontColor: #3f6ef8;
+  --bgAnimationTime: 1.5s;
+  --reloadFontColor: rgba(0,0,0, 0.2);
+  --footerLinkFontColor: rgba(0,0,0, 0.8);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -17,9 +34,9 @@ html, body {
 
 body {
   font-family: 'VCROSD', monospace;
-  color: #fdfdfd;
-  background: url(/assets/images/dark-bg.png) #3f6ef8; /* #3f6ef8 */
-  animation: bg-ani 1.5s infinite;
+  color: var(--darkBgFontColor);
+  background: var(--bgImgDark) var(--fallbackBg);
+  animation: bg-ani var(--bgAnimationTime) infinite;
   user-select: none;
 }
 
@@ -44,7 +61,7 @@ a {
 }
 
 #reload {
-  font-size: 5vw;
+  font-size: 3vw;
   text-align: center;
   position: absolute;
   bottom: 15vh;
@@ -52,14 +69,20 @@ a {
   transform: translateX(-50%);
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
+  #phrase {
+    font-size: 10vw;
+    word-wrap: break-word;
+    padding: 0 4vw;
+  }
+
   #reload {
-    font-size: 3vw;
+    font-size: 8vw;
   }
 }
 
 #reload > a {
-  color:rgba(0,0,0, 0.2);
+  color: var(--reloadFontColor);
 }
 
 #footer {
@@ -72,20 +95,20 @@ a {
 }
 
 #footer > a {
-  color: rgba(0,0,0, 0.8);
-  margin: 0 3px;
+  color: var(--footerLinkFontColor);
+  margin: 0 6px;
   transition: color 0.4s;
 }
 
 #footer > a:hover {
-  color: #fdfdfd;
+  color: var(--darkBgFontColor);
 }
 
 /* Animation */
 @keyframes bg-ani {
-  0%   { background: url(/assets/images/dark-bg.png); color: #fdfdfd; }
-  35%  { background: url(/assets/images/dark-bg.png); color: #fdfdfd; }
-  50%  { background: url(/assets/images/light-bg.png); color: #3f6ef8; }
-  85%  { background: url(/assets/images/light-bg.png); color: #3f6ef8; }
-  100% { background: url(/assets/images/dark-bg.png); color: #fdfdfd; }
+  0%   { background: var(--bgImgDark); color: var(--darkBgFontColor); }
+  35%  { background: var(--bgImgDark); color: var(--darkBgFontColor); }
+  50%  { background: var(--bgImgLight); color: var(--lightBgFontColor); }
+  85%  { background: var(--bgImgLight); color: var(--lightBgFontColor); }
+  100% { background: var(--bgImgDark); color: var(--darkBgFontColor); }
 }

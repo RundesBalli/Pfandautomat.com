@@ -3,16 +3,20 @@
   <head>
     <title>Pfandautomat.com</title>
     <meta charset="utf-8">
-    <meta name="description" content="Pfandautomat.com"/>
+    <meta name="description" content="Pfandautomat.com lässt die Erinnerungen an dein letztes Pfandautomat Erlebnis wieder aufkochen. Erfreue dich an den vielen Fehlermeldungen, die dir unnötig Zeit rauben!"/>
+    <meta name="keywords" content="Pfandautomat, Pfand, Fehlermeldung"/>
+    <meta name="author" content="RundesBalli"/>
     <meta name="robots" content="index, follow"/>
-    <meta name="keywords" content="Pfandautomat, Pfand"/>
     <meta name="revisit-after" content="7 days"/>
     <link href="/assets/css/style.css" rel="stylesheet">
     <meta name="theme-color" content="#3f6ef8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Pfandautomat.com">
-    <meta property="og:type" content="article">
+    <meta property="og:type" content="website">
     <meta property="og:url" content="https://Pfandautomat.com">
+    <meta property="og:description" content="Pfandautomat.com lässt die Erinnerungen an dein letztes Pfandautomat Erlebnis wieder aufkochen. Erfreue dich an den vielen Fehlermeldungen, die dir unnötig Zeit rauben!">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:site_name" content="Pfandautomat.com">
   </head>
   <body>
     <div id="wrapper">

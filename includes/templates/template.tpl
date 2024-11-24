@@ -26,15 +26,12 @@
   </head>
   <body>
     <div id="wrapper">
-      <div id="phrase"><?php $desc = array("Automat voll!<br>Personal rufen!", "Marke wird nicht akzeptiert", "Flaschenboden zuerst", "Kiste drehen", "Kiste enthält volle Flaschen", "Kiste enthält falsche Flaschen", "Flasche bitte entleeren", "Bondrucker leer", "Flasche enthält Fremdkörper", "Pfandlogo nicht lesbar", "Kiste beim Transport verrutscht", "Kiste blockiert", "Gebinde nicht akzeptiert", "Bitte Mitarbeiter rufen"); echo $desc[array_rand($desc)]; ?></div>
+      <div id="phrase">{PHRASE}</div>
+      <div id="progress"><div id="bar"></div></div>
+      <a id="reload">↻ reload</a>
     </div>
-    <div id="reload"><a href="/">↻ reload</a></div>
     <div id="footer">
-      <a href="https://rundesballi.com/" target="_blank" rel="noopener">RundesBalli.com</a>
-      <a href="https://rundesballi.com/imprint" target="_blank" rel="noopener">Impressum</a>
-      <a href="https://github.com/RundesBalli/Pfandautomat.com" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://php-noise.com" target="_blank" rel="noopener">PHP-Noise</a>
-      <a href="https://www.dafont.com/de/vcr-osd-mono.font" target="_blank" rel="noopener">VCR OSD Mono Font</a>
+      {FOOTER}
     </div>
     <script type="text/javascript" src="/assets/js/reload.js"></script>
   </body>

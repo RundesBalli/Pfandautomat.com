@@ -5,7 +5,7 @@
  * All phrases
  */
 $phrases = [
-  'Automat voll!<br>Personal rufen!',
+  'Automat voll! Personal rufen!',
   'Marke wird nicht akzeptiert',
   'Flaschenboden zuerst',
   'Kiste drehen',

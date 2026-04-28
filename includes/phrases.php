@@ -19,5 +19,6 @@ $phrases = [
   'Kiste blockiert',
   'Gebinde nicht akzeptiert',
   'Bitte Mitarbeiter rufen',
+  'Druckerfehler',
 ];
 ?>
